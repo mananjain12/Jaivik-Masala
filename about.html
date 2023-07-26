@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaivik Masala</title>
+    <link rel="stylesheet" href="design.css">
+    <title>Jaivik Masala</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <section class="subheader">
+      <nav class="navbar-desktop">
+        <a href=""><img src="image/logo.png" alt=""></a>
+      <ul class="navlinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  
+    <!-- Mobile Navigation -->
+    <div class="navbar-mobile">
+        <a href=""><img src="image/logo.png" alt=""></a>
+        <span class="toggle-icon" onclick="openNav()">&#9776;</span>
+    </div>
+  
+    <!-- Overlay Navigation (Mobile) -->
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+    <!-- About us-->  
+    </div>
+        <h1>About Us</h1>
+    </section>
+    <section class="about">
+        <h1><b>About This Item</b></h1>
+        <ul>
+          <li>Homemade Chai Masala</li>
+          <li>Preservatives Free</li>
+          <li>Pure and Best Quality Ingredients</li>
+          <li>Biodegradable and Plastic-free Packaging</li>
+        </ul>
+      </section>
+
+      <section class="tabless">
+        <h2>More about item:-</h2>
+        <table>
+          <tr>
+              <th>Brand</th>
+              <td>JAIVIK</td>
+          </tr>
+          <tr>
+            <th>Item Form</th>
+            <td>Powder</td>
+          </tr>
+          <tr>
+            <th>Diet Type</th>
+            <td>Vegetarian</td>
+          </tr>
+          <tr>
+            <th>Speciality</th>
+            <td>Pepper,Cinnamon</td>
+          </tr>
+          <tr>
+            <th>Flavour</th>
+            <td>Masala</td>
+          </tr>
+      </section>
+
+      <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
+      </body>
+</html>

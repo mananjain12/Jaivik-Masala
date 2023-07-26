@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jaivik Masala</title>
+<link rel="stylesheet" href="design.css">
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <!-- Desktop Navigation -->
+        <nav class="navbar-desktop">
+            <a href=""><img src="image/logo.png" alt=""></a>
+          <ul class="navlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      
+        <!-- Mobile Navigation -->
+        <div class="navbar-mobile">
+            <a href=""><img src="image/logo.png" alt=""></a>
+            <span class="toggle-icon" onclick="openNav()">&#9776;</span>
+        </div>
+        
+        <!-- Overlay Navigation (Mobile) -->
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+
+        <!-- Intoduction -->
+        <div class="text">
+            <h1>HELLO EVERYONE!</h1>
+            <p><b>JAIVIK CHAI MASALA</b> is a Homemade Chai Masala which is Preservatives Free.Our unique blend of spices creates the perfect powder mix for your chai.A perfect blend of pure spices (made with best quality ingredients).100% Natural Ingredients like black pepper, cardamom, clove, cinnamon and dried ginger (carefully sourced from states across the country).Just add a pinch of the powder to the brewing tea and enjoy the feel of spice in your chai.Our masala is rich in antioxidants and help in boosting immunity, improving digestion, and increasing energy levels.</p>
+            <a href="image/details.jpg" target="_blank" class="button">More details about product</a>
+            </div>
+</section>
+
+<!-- Images of the product:-Autoplay-->
+<section class="Image">
+<h2>IMAGES</h2>
+<div class="carousel" data-flickity='{ "autoPlay": true }'>
+  <div class="carousel-cell">
+    <img src="image/61V1cXWTdGL._SL1500_.jpg" alt="This is an image" width="400" height="300">
+  </div>
+  <div class="carousel-cell">
+    <img src="image/61y3ycgo9tL._SL1500_.jpg" alt="This is an image" width="400" height="300">
+  </div>
+  <div class="carousel-cell">
+    <img src="image/81z2as4wyNL._SL1500_.jpg" alt="This is an image" width="400" height="300">
+  </div>
+  <div class="carousel-cell">
+    <img src="image/51F8Vwwod3L._SL1500_.jpg" alt="This is an image" width="400" height="300">
+  </div>
+</div>  
+</section>
+
+<!-- Connect with us -->
+<section class="footer">
+<h4>Connect  With  Us</h4>
+<div class="icons">
+  <a href="https://amzn.eu/d/h749b8N" target="_blank"><i class="fab fa-amazon"></i></a>  
+  <a href="https://instagram.com/jaiviks_?igshid=MzRlODBiNWFlZA==" target="_blank"><i class="fab fa-instagram"></i></a>
+</div>  
+<p>Hope you Enjoyed  <i class="far fa-grin-beam"></i></p>    
+</section>
+<script
+type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+</script>
+<script
+nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> 
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+     
+</body>
+</html>
