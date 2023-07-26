@@ -60,14 +60,14 @@
     display: block;
     height: 4px;
     width: 100%;
-    background-color: #ffc800;
+    background-color: rgb(6, 137, 137);
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.3s ease;
   }
   
   .navbar-desktop .navlinks li a:hover {
-    color: #ffc800;
+    color: rgb(6, 137, 137);
   }
 
   .navbar-desktop .navlinks li a:hover::after{
